@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#f8fafc"/>
+  <rect x="50" y="50" width="1100" height="530" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Gradient Background for Title Area -->
+  <rect x="100" y="150" width="1000" height="100" rx="10" fill="url(#titleGradient)"/>
+  
+  <!-- Logo and Title -->
+  <text x="600" y="120" font-family="Inter, sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="#1e293b">AI Trace</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="210" font-family="Inter, sans-serif" font-size="36" font-weight="700" text-anchor="middle" fill="#ffffff">The simplest way to evaluate prompts</text>
+  
+  <!-- Description -->
+  <text x="600" y="300" font-family="Inter, sans-serif" font-size="24" font-weight="400" text-anchor="middle" fill="#64748b">Comprehensive LLM evaluation tools to understand,</text>
+  <text x="600" y="340" font-family="Inter, sans-serif" font-size="24" font-weight="400" text-anchor="middle" fill="#64748b">measure, and improve your prompts with precision.</text>
+  
+  <!-- Early Access Badge -->
+  <rect x="450" y="400" width="300" height="60" rx="30" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+  <text x="600" y="440" font-family="Inter, sans-serif" font-size="24" font-weight="700" text-anchor="middle" fill="#92400e">Early Access Now Open</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="200" cy="500" r="40" fill="url(#circleGradient1)" opacity="0.7"/>
+  <circle cx="1000" cy="500" r="40" fill="url(#circleGradient2)" opacity="0.7"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="circleGradient1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 500) rotate(90) scale(40)">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="circleGradient2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 500) rotate(90) scale(40)">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
