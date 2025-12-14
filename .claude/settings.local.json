@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python3:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(kill:*)",
+      "Bash(pkill:*)",
+      "Bash(uv run python:*)",
+      "Bash(uv sync:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(chmod:*)",
+      "Bash(grep:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
