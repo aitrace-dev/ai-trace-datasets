@@ -575,17 +575,27 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ### Planned Features
 
+#### 🤖 AI-Powered Features
+- [ ] **AI Dataset Creation** - Describe your dataset needs in natural language and automatically fetch images from Google Images API
+- [ ] **Auto-labeling Agent** - Train custom AI agents to automatically label images based on your schema and existing labeled data
+- [ ] **Smart Suggestions** - AI-powered field suggestions while labeling
+- [ ] **Similarity Search** - Find similar images in your dataset using embeddings
+
+#### 🚀 Core Features
 - [ ] **Multi-team support** - Multiple isolated teams in one instance
 - [ ] **User invitations** - Email invites with team quotas
-- [ ] **Advanced AI features** - Auto-labeling, similarity search
 - [ ] **Email verification** - Verify user emails on signup
 - [ ] **2FA authentication** - TOTP-based two-factor auth
 - [ ] **Social login** - Google, GitHub OAuth
+
+#### 📦 Data Management
 - [ ] **Image proxy/caching** - Cache external images locally
 - [ ] **Advanced export formats** - JSON, Parquet, COCO format
+- [ ] **Advanced search** - Full-text search, filters, saved queries
+
+#### 🔧 Developer Experience
 - [ ] **API keys** - Programmatic access without passwords
 - [ ] **Webhooks** - Real-time notifications for events
-- [ ] **Advanced search** - Full-text search, filters, saved queries
 - [ ] **Keyboard shortcuts** - Navigate review queue with keyboard
 - [ ] **Mobile app** - React Native mobile companion
 
